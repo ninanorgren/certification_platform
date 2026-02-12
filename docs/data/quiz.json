@@ -1,0 +1,206 @@
+{
+  "title": "ELIXIR Training self-certification",
+  "description": "Training from ELIXIR should follow certain minimal standards. By evaluating your training using these standards you can self-certify your training. Please answer the following questions to get a badge.",
+  "passLabel": "Completed",
+  "thresholds": [
+    { "minScore": 18, "label": "Bronze", "badgeText": "BRONZE", "badgeColor": "#CE8946" },
+    { "minScore": 25, "label": "Silver", "badgeText": "SILVER", "badgeColor": "#C0C0C0" },
+    { "minScore": 30, "label": "Gold", "badgeText": "GOLD", "badgeColor": "#D4AF37" }
+  ],
+  "sections": [
+    {
+      "id": "basics",
+      "title": "Basics",
+      "description": "General training basics",
+      "questions": [
+        {
+          "id": "bioschema",
+          "type": "single",
+          "prompt": "Does the resource have all the minimal descriptors of the BioSchemas profile? For more information about BioSchemas see https://bioschemas.org",
+          "answers": [
+            { "text": "No", "score": 0 },
+            { "text": "Yes", "score": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fair",
+        "title": "FAIR principles",
+        "description": "Are the following FAIR Training recommendations “principles”/aspects addressed by the training material",
+        "questions": [
+          {
+            "id": "url",
+            "type": "single",
+            "prompt": "Does your training material have a url?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "overview",
+            "type": "single",
+            "prompt": "Is there a short overview of the material?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "doi",
+            "type": "single",
+            "prompt": "Does the material have an identifier?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "tess",
+            "type": "single",
+            "prompt": "Have the training materials been successfully scraped by TeSS?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "tess2",
+            "type": "single",
+            "prompt": "Is the Training Event registered in TeSS?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "access",
+            "type": "single",
+            "prompt": "Are the access rules stated?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "access",
+            "type": "multi",
+            "prompt": "What interoperable formats have you used for the materials?",
+            "answers": [
+              { "text": "Markdown", "score": 2 },
+              { "text": "PDF", "score": 0 },
+              { "text": "Powerpoint", "score": 1 }
+            ]
+          }
+      ]
+    },
+    {
+      "id": "pedagogy",
+      "title": "Pedagogic base",
+      "description": "Does the material follow good pedagogical principles.",
+      "questions": [
+        {
+          "id": "level",
+          "type": "single",
+          "prompt": "Is the level that the learners’ knowledge will reach on the topic specified? For a definition of the novice, intermediate and advanced levels, please refer to these relevant resources: Bioinformatic Mastery Rubric, with a corresponding introduction and a professional guide, and the ELIXIR Train-the-Trainer course",
+          "answers": [
+            { "text": "Yes, Novice", "score": 1 },
+            { "text": "Yes, Intermediate", "score": 1 },
+            { "text": "Yes, Advanced", "score": 1 },
+            { "text": "No", "score": 0 }
+          ]
+        },
+          {
+            "id": "target",
+            "type": "single",
+            "prompt": "Is the target audience explicitly written/defined?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "prerequisites",
+            "type": "single",
+            "prompt": "Are prerequisites described? These include both technical, such as required software/hardware and respective skills, and training-related, such as prior experience and knowledge. Ideally, all knowledge- and skill-related prerequisites should be defined using actionable verbs (i.e. Bloom’s).",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "outcomes",
+            "type": "single",
+            "prompt": "Are the learning outcomes explicitly written/defined, e.g., is there such a section included in the description?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "blooms",
+            "type": "single",
+            "prompt": "Are learning outcomes written using actionable verbs (i.e. Bloom’s)?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          }
+      ]
+    },
+    {
+      "id": "elixir",
+      "title": "ELIXIR specific",
+      "description": "Does the material follow ELIXIR standards.",
+      "questions": [
+        {
+          "id": "feedback",
+          "type": "single",
+          "prompt": "Will the Training Event adopt the ELIXIR feedback questionnaires (both short-term and long-term)? Note: Please do not share any link to the survey results.",
+          "answers": [
+            { "text": "No", "score": 0 },
+            { "text": "Yes", "score": 2 }
+          ]
+        },
+          {
+            "id": "nodes",
+            "type": "single",
+            "prompt": "Is the training event organised by one or more ELIXIR Nodes?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "ttt",
+            "type": "single",
+            "prompt": "Will the course include at least one instructor who has attended a formal pedagogical course (such as the ELIXIR TtT course)?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "coc",
+            "type": "single",
+            "prompt": "Does the course abide by the ELIXIR Code of Conduct?",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          },
+          {
+            "id": "gdpr",
+            "type": "single",
+            "prompt": "Are participants informed of any collected usage data (e.g. names or emails of participants, images, videos if recorded, or pictures were taken)? Note: data collection should be compliant with the GDPR rules, based on the local regulations of the organising Institution",
+            "answers": [
+              { "text": "No", "score": 0 },
+              { "text": "Yes", "score": 2 }
+            ]
+          }
+      ]
+    }
+  ]
+  
+}
