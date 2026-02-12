@@ -10,15 +10,22 @@
 <body>
 
   <!-- Full-width header -->
-  <div class="bg-dark text-white py-4 shadow">
+  <div class="bg-dark text-white py-3 shadow">
     <div class="container">
-      <h1 id="title" class="mb-0"></h1>
+        <div class="d-flex align-items-center">
+            <img src="./assets/ELIXIR_logo_negative_orange.svg"
+                alt="ELIXIR Logo"
+                height="70"
+                class="me-3">
+            <h1 id="title" class="mb-0"></h1>
+        </div>
     </div>
   </div>
 
+
   <!-- Main content -->
   <div class="container py-5" id="container">
-    
+
     <p id="desc" class="lead"></p>
 
     <form id="quiz" class="mt-4"></form>
@@ -31,6 +38,7 @@
 
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
