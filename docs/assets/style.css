@@ -8,3 +8,11 @@
   border: 1px solid #e9ecef;
   border-radius: 10px;
 }
+
+.btn-custom {
+    background-color: #f47d20;
+}
+
+.btn-custom:hover {
+    background-color: #facba5;
+}

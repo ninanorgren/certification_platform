@@ -100,7 +100,7 @@ function renderQuiz(cfg) {
   }).join("");
 
   els.form.insertAdjacentHTML("beforeend", `
-    <button type="submit" class="btn btn-primary mt-2">See result</button>
+    <button type="submit" class="btn btn-custom mt-2"><b>See result</b></button>
   `);
 }
 
