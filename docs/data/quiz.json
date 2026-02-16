@@ -1,6 +1,6 @@
 {
   "title": "ELIXIR Training self-certification",
-  "description": "Training from ELIXIR should follow certain minimal standards. By evaluating your training using these standards you can self-certify your training. Please answer the following questions to get a badge.",
+  "description": "Training from ELIXIR should follow certain minimal standards. By evaluating your training using these standards you can self-certify your training. Please answer the following questions to get a badge. The badge can be used together with your training materials, together with a link to the downloadable pdf with certification result",
   "passLabel": "Completed",
   "thresholds": [
     { "minScore": 18, "label": "Bronze", "badgeText": "BRONZE", "badgeColor": "#CE8946" },
