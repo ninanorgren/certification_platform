@@ -63,11 +63,9 @@ function renderQuiz(cfg) {
 
   els.form.innerHTML = cfg.sections.map((section) => {
     const sectionHeader = `
-      <div class="card section-card shadow-sm mb-3 mt-5">
-        <div class="card-body">
-          <h2 class="h5 mb-1">${section.title}</h2>
-          ${section.description ? `<p class="text-muted mb-0">${section.description}</p>` : ""}
-        </div>
+      <div class="section-header mb-3">
+        <h3 class="fw-bold mb-1">${section.title}</h3>
+        ${section.description ? `<p class="text-muted small mb-0">${section.description}</p>` : ""}
       </div>
     `;
 
